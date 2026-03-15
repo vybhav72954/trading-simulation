@@ -4,3 +4,6 @@ venv
 .idea
 idea
 Problem Statement.docx
+Old Results
+*.pdf
+*.docx
