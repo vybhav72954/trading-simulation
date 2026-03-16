@@ -13,7 +13,7 @@ date,selected,entering,exiting,n_trades,transaction_cost,gross_return,net_return
 2023-03-24,AMZN | V,—,—,0,0.000000,0.036290,0.036290,"{'AMZN': np.float64(0.8), 'V': np.float64(0.7)}","{'AMZN': np.float64(1.3), 'V': np.float64(1.2)}",0.500000
 2023-03-31,AMZN | META,META,V,2,0.001000,0.003860,0.002860,"{'AMZN': np.float64(0.7), 'META': np.float64(1.0)}","{'AMZN': np.float64(1.2), 'META': np.float64(1.0)}",0.500000
 2023-04-07,JPM | META,JPM,AMZN,2,0.001000,0.056638,0.055638,"{'JPM': np.float64(1.0), 'META': np.float64(0.8)}","{'JPM': np.float64(1.0), 'META': np.float64(1.3)}",0.500000
-2023-04-14,JPM | META,—,—,0,0.000000,-0.012890,-0.012890,"{'JPM': np.float64(0.55), 'META': np.float64(0.8)}","{'JPM': np.float64(1.05), 'META': np.float64(1.3)}",0.500000
+2023-04-14,JPM | META,—,—,0,0.000000,-0.012891,-0.012891,"{'JPM': np.float64(0.55), 'META': np.float64(0.8)}","{'JPM': np.float64(1.05), 'META': np.float64(1.3)}",0.500000
 2023-04-21,GOOGL | META,GOOGL,JPM,2,0.001000,0.073578,0.072578,"{'GOOGL': np.float64(0.9), 'META': np.float64(1.0)}","{'GOOGL': np.float64(0.9), 'META': np.float64(1.5)}",0.500000
 2023-04-28,JPM | META,JPM,GOOGL,2,0.001000,-0.021113,-0.022113,"{'JPM': np.float64(0.9), 'META': np.float64(1.0)}","{'JPM': np.float64(0.9), 'META': np.float64(1.5)}",0.500000
 2023-05-05,AMZN | JPM,AMZN,META,2,0.001000,0.012115,0.011115,"{'AMZN': np.float64(1.0), 'JPM': np.float64(0.8)}","{'AMZN': np.float64(1.0), 'JPM': np.float64(1.3)}",0.500000
@@ -33,7 +33,7 @@ date,selected,entering,exiting,n_trades,transaction_cost,gross_return,net_return
 2023-08-11,JNJ | META,—,—,0,0.000000,-0.034395,-0.034395,"{'JNJ': np.float64(0.55), 'META': np.float64(0.8)}","{'JNJ': np.float64(1.05), 'META': np.float64(1.3)}",0.500000
 2023-08-18,JNJ | META,—,—,0,0.000000,-0.010617,-0.010617,"{'JNJ': np.float64(0.7), 'META': np.float64(0.55)}","{'JNJ': np.float64(1.2), 'META': np.float64(1.05)}",0.500000
 2023-08-25,JNJ | META,—,—,0,0.000000,0.001701,0.001701,"{'JNJ': np.float64(1.0), 'META': np.float64(0.7)}","{'JNJ': np.float64(1.5), 'META': np.float64(1.2)}",0.500000
-2023-09-01,AAPL | JNJ,AAPL,META,2,0.001000,-0.029520,-0.030520,"{'AAPL': np.float64(1.0), 'JNJ': np.float64(0.7)}","{'AAPL': np.float64(1.0), 'JNJ': np.float64(1.2)}",0.500000
+2023-09-01,AAPL | JNJ,AAPL,META,2,0.001000,-0.029519,-0.030519,"{'AAPL': np.float64(1.0), 'JNJ': np.float64(0.7)}","{'AAPL': np.float64(1.0), 'JNJ': np.float64(1.2)}",0.500000
 2023-09-08,AAPL | GOOGL,GOOGL,JNJ,2,0.001000,-0.005156,-0.006156,"{'AAPL': np.float64(0.6), 'GOOGL': np.float64(1.0)}","{'AAPL': np.float64(1.1), 'GOOGL': np.float64(1.0)}",0.500000
 2023-09-15,AAPL | GOOGL,—,—,0,0.000000,-0.026647,-0.026647,"{'AAPL': np.float64(0.6), 'GOOGL': np.float64(0.7)}","{'AAPL': np.float64(1.1), 'GOOGL': np.float64(1.2)}",0.500000
 2023-09-22,GOOGL | META,META,AAPL,2,0.001000,0.004231,0.003231,"{'GOOGL': np.float64(0.6), 'META': np.float64(1.0)}","{'GOOGL': np.float64(1.1), 'META': np.float64(1.0)}",0.500000
@@ -75,13 +75,13 @@ date,selected,entering,exiting,n_trades,transaction_cost,gross_return,net_return
 2024-05-31,AAPL | JPM,—,—,0,0.000000,0.005455,0.005455,"{'AAPL': np.float64(1.0), 'JPM': np.float64(0.55)}","{'AAPL': np.float64(1.5), 'JPM': np.float64(1.05)}",0.500000
 2024-06-07,AAPL | META,META,JPM,2,0.001000,0.051484,0.050484,"{'AAPL': np.float64(0.5), 'META': np.float64(1.0)}","{'AAPL': np.float64(1.0), 'META': np.float64(1.0)}",0.500000
 2024-06-14,AAPL | JNJ,JNJ,META,2,0.001000,-0.000737,-0.001737,"{'AAPL': np.float64(0.5), 'JNJ': np.float64(1.0)}","{'AAPL': np.float64(1.0), 'JNJ': np.float64(1.0)}",0.500000
-2024-06-21,AAPL | JNJ,—,—,0,0.000000,-0.001163,-0.001163,"{'AAPL': np.float64(0.65), 'JNJ': np.float64(0.65)}","{'AAPL': np.float64(1.15), 'JNJ': np.float64(1.15)}",0.500000
+2024-06-21,AAPL | JNJ,—,—,0,0.000000,-0.001164,-0.001164,"{'AAPL': np.float64(0.65), 'JNJ': np.float64(0.65)}","{'AAPL': np.float64(1.15), 'JNJ': np.float64(1.15)}",0.500000
 2024-06-28,AAPL | GOOGL,GOOGL,JNJ,2,0.001000,0.060514,0.059514,"{'AAPL': np.float64(0.9), 'GOOGL': np.float64(1.0)}","{'AAPL': np.float64(1.4), 'GOOGL': np.float64(1.0)}",0.500000
 2024-07-05,GOOGL | V,V,AAPL,2,0.001000,-0.023051,-0.024051,"{'GOOGL': np.float64(0.4), 'V': np.float64(1.0)}","{'GOOGL': np.float64(0.9), 'V': np.float64(1.0)}",0.500000
 2024-07-12,AAPL | META,AAPL | META,GOOGL | V,4,0.002000,-0.035642,-0.037642,"{'AAPL': np.float64(1.0), 'META': np.float64(0.9)}","{'AAPL': np.float64(1.0), 'META': np.float64(0.9)}",0.500000
 2024-07-19,META | V,V,AAPL,2,0.001000,-0.022931,-0.023931,"{'META': np.float64(0.9), 'V': np.float64(1.0)}","{'META': np.float64(1.4), 'V': np.float64(1.0)}",0.500000
 2024-07-26,BRK-B | V,BRK-B,META,2,0.001000,0.003096,0.002096,"{'BRK-B': np.float64(1.0), 'V': np.float64(0.7)}","{'BRK-B': np.float64(1.0), 'V': np.float64(1.2)}",0.500000
-2024-08-02,BRK-B | JPM,JPM,V,2,0.001000,0.020585,0.019585,"{'BRK-B': np.float64(0.8), 'JPM': np.float64(1.0)}","{'BRK-B': np.float64(1.3), 'JPM': np.float64(1.0)}",0.500000
+2024-08-02,BRK-B | JPM,JPM,V,2,0.001000,0.020586,0.019586,"{'BRK-B': np.float64(0.8), 'JPM': np.float64(1.0)}","{'BRK-B': np.float64(1.3), 'JPM': np.float64(1.0)}",0.500000
 2024-08-09,BRK-B | JPM,—,—,0,0.000000,0.034722,0.034722,"{'BRK-B': np.float64(0.8), 'JPM': np.float64(1.0)}","{'BRK-B': np.float64(1.3), 'JPM': np.float64(1.5)}",0.500000
 2024-08-16,BRK-B | JPM,—,—,0,0.000000,0.020119,0.020119,"{'BRK-B': np.float64(0.7), 'JPM': np.float64(0.6)}","{'BRK-B': np.float64(1.2), 'JPM': np.float64(1.1)}",0.500000
 2024-08-23,BRK-B | JPM,—,—,0,0.000000,0.039722,0.039722,"{'BRK-B': np.float64(0.65), 'JPM': np.float64(1.0)}","{'BRK-B': np.float64(1.15), 'JPM': np.float64(1.5)}",0.500000
@@ -93,9 +93,9 @@ date,selected,entering,exiting,n_trades,transaction_cost,gross_return,net_return
 2024-10-04,JPM | TSLA,JPM,AMZN,2,0.001000,-0.038334,-0.039334,"{'JPM': np.float64(1.0), 'TSLA': np.float64(0.7)}","{'JPM': np.float64(1.0), 'TSLA': np.float64(1.2)}",0.500000
 2024-10-11,JPM | TSLA,—,—,0,0.000000,0.013585,0.013585,"{'JPM': np.float64(0.7), 'TSLA': np.float64(0.9)}","{'JPM': np.float64(1.2), 'TSLA': np.float64(1.4)}",0.500000
 2024-10-18,GOOGL | JPM,GOOGL,TSLA,2,0.001000,-0.001129,-0.002129,"{'GOOGL': np.float64(1.0), 'JPM': np.float64(0.8)}","{'GOOGL': np.float64(1.0), 'JPM': np.float64(1.3)}",0.500000
-2024-10-25,GOOGL | JPM,—,—,0,0.000000,0.019629,0.019629,"{'GOOGL': np.float64(0.6), 'JPM': np.float64(0.9)}","{'GOOGL': np.float64(1.1), 'JPM': np.float64(1.4)}",0.500000
+2024-10-25,GOOGL | JPM,—,—,0,0.000000,0.019630,0.019630,"{'GOOGL': np.float64(0.6), 'JPM': np.float64(0.9)}","{'GOOGL': np.float64(1.1), 'JPM': np.float64(1.4)}",0.500000
 2024-11-01,GOOGL | JPM,—,—,0,0.000000,0.052097,0.052097,"{'GOOGL': np.float64(0.6), 'JPM': np.float64(0.7)}","{'GOOGL': np.float64(1.1), 'JPM': np.float64(1.2)}",0.500000
-2024-11-08,GOOGL | MSFT,MSFT,JPM,2,0.001000,-0.025350,-0.026350,"{'GOOGL': np.float64(0.7), 'MSFT': np.float64(1.0)}","{'GOOGL': np.float64(1.2), 'MSFT': np.float64(1.0)}",0.500000
+2024-11-08,GOOGL | MSFT,MSFT,JPM,2,0.001000,-0.025351,-0.026351,"{'GOOGL': np.float64(0.7), 'MSFT': np.float64(1.0)}","{'GOOGL': np.float64(1.2), 'MSFT': np.float64(1.0)}",0.500000
 2024-11-15,GOOGL | JNJ,JNJ,MSFT,2,0.001000,-0.018608,-0.019608,"{'GOOGL': np.float64(0.7), 'JNJ': np.float64(1.0)}","{'GOOGL': np.float64(1.2), 'JNJ': np.float64(1.0)}",0.500000
 2024-11-22,AAPL | GOOGL,AAPL,JNJ,2,0.001000,0.028942,0.027942,"{'AAPL': np.float64(1.0), 'GOOGL': np.float64(0.5)}","{'AAPL': np.float64(1.0), 'GOOGL': np.float64(1.0)}",0.500000
 2024-11-29,AAPL | BRK-B,BRK-B,GOOGL,2,0.001000,-0.001352,-0.002352,"{'AAPL': np.float64(0.75), 'BRK-B': np.float64(1.0)}","{'AAPL': np.float64(1.25), 'BRK-B': np.float64(1.0)}",0.500000
@@ -131,7 +131,7 @@ date,selected,entering,exiting,n_trades,transaction_cost,gross_return,net_return
 2025-06-27,TSLA | V,—,—,0,0.000000,0.001909,0.001909,"{'TSLA': np.float64(1.0), 'V': np.float64(0.6)}","{'TSLA': np.float64(1.5), 'V': np.float64(1.1)}",0.500000
 2025-07-04,TSLA | V,—,—,0,0.000000,-0.018146,-0.018146,"{'TSLA': np.float64(0.95), 'V': np.float64(0.95)}","{'TSLA': np.float64(1.45), 'V': np.float64(1.45)}",0.500000
 2025-07-11,JNJ | V,JNJ,TSLA,2,0.001000,0.023279,0.022279,"{'JNJ': np.float64(0.9), 'V': np.float64(1.0)}","{'JNJ': np.float64(0.9), 'V': np.float64(1.5)}",0.500000
-2025-07-18,JNJ | V,—,—,0,0.000000,0.025495,0.025495,"{'JNJ': np.float64(1.0), 'V': np.float64(0.5)}","{'JNJ': np.float64(1.5), 'V': np.float64(1.0)}",0.500000
+2025-07-18,JNJ | V,—,—,0,0.000000,0.025496,0.025496,"{'JNJ': np.float64(1.0), 'V': np.float64(0.5)}","{'JNJ': np.float64(1.5), 'V': np.float64(1.0)}",0.500000
 2025-07-25,JNJ | V,—,—,0,0.000000,-0.027655,-0.027655,"{'JNJ': np.float64(1.0), 'V': np.float64(0.5)}","{'JNJ': np.float64(1.5), 'V': np.float64(1.0)}",0.500000
 2025-08-01,JNJ | V,—,—,0,0.000000,0.014142,0.014142,"{'JNJ': np.float64(0.8), 'V': np.float64(0.6)}","{'JNJ': np.float64(1.3), 'V': np.float64(1.1)}",0.500000
 2025-08-08,JNJ | V,—,—,0,0.000000,0.021865,0.021865,"{'JNJ': np.float64(0.7), 'V': np.float64(0.9)}","{'JNJ': np.float64(1.2), 'V': np.float64(1.4)}",0.500000
